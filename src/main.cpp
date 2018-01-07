@@ -201,6 +201,7 @@ int main(int argc, char* argv[]) {
 	}
 
 	entityManager->clearEntities();
+	Ryd3::ResourceManager::getResourceManager()->ClearResources();
 
 	glDeleteBuffers(1, &backVbo);
 	glDeleteBuffers(1, &backVao);
