@@ -34,8 +34,8 @@ find_package(assimp REQUIRED)
 include_directories(${assimp_INCLUDE_DIRS})
 
 # Requires Ryd3ngine
-include_directories(${CMAKE_BINARY_DIR}/libs/Ryd3ngine/include)
-link_directories(${CMAKE_BINARY_DIR}/libs/Ryd3ngine/lib)
+include_directories(${CMAKE_SOURCE_DIR}/libs/Ryd3ngine/include)
+link_directories(${CMAKE_SOURCE_DIR}/libs/Ryd3ngine/lib)
 
 # Create a list of all the files to use
 set(SOURCE_FILES	src/main.cpp
