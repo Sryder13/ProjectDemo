@@ -1,3 +1,4 @@
 https://github.com/Twinklebear/TwinklebearDev-Lessons/blob/master/cmake/FindSDL2_image.cmake
 https://github.com/wheybags/freeablo/blob/master/cmake/FindSDL2_mixer.cmake
 https://github.com/assimp/assimp/blob/master/cmake-modules/Findassimp.cmake
+https://github.com/tcbrindle/sdl2-cmake-scripts/blob/master/FindSDL2.cmake
